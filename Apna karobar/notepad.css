@@ -1,0 +1,84 @@
+.notebook {
+    display: block;
+    position: relative;
+    width: 500px;
+    height: 400px;
+    background-color: #FFFFCC;
+    margin: 20px auto;
+    box-shadow: 10px 13px 10px 4px rgba(0, 0, 0, 0.2);
+  }
+  .notebook:before {
+    position: absolute;
+    content: "";
+    top: 13px;
+    left: 9px;
+    width: 12px;
+    height: 8px;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 10px #CCC, 30px 0 0 #CCC, 60px 0 0 #CCC, 90px 0 0 #CCC, 120px 0 0 #CCC, 150px 0 0 #CCC, 180px 0 0 #CCC, 210px 0 0 #CCC, 240px 0 0 #CCC, 270px 0 0 #CCC;
+  }
+  
+  textarea {
+    position: absolute;
+    content: "";
+    font-size: 25px;
+    text-align: left;
+    top: 70px;
+    background-color: #FFFFCC;
+    width: 497px;
+    height: 330px;
+    border: none;
+    background-image: repeating-linear-gradient(#FFAB00 0px, #FFAB00 1px, transparent 1px, transparent 30px);
+    background-repeat: repeat-y, no-repeat;
+    outline: none;
+  }
+  
+  .container {
+    overflow-y: scroll;
+  }
+
+  .headinng
+  {
+      text-align: center;
+      color:#3498db;
+      font-size: 48px;
+  }
+
+
+  .btn {
+	text-align: center;
+	width: 74px;
+	height:43px;
+	border-radius: 30px;
+	
+  }
+
+  .btn:hover, .btn:focus {
+	color: #fff;
+
+  }
+  .sp-btn 
+  {
+      width: 100%;
+      height:auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: 20px;
+  
+  }
+ 
+  .butt{
+    border-color: #3498db;
+	color: #fff;
+	box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+	transition: all 150ms ease-in-out;
+  }
+
+ .butt:hover
+ {
+   
+        /* box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #f2f4f6; */
+        color:black;
+ }
